@@ -1,30 +1,35 @@
 \usepath[{/home/petra/context/}]
-\usemodule[bib]
-\usemodule[bibltx]
+%\usemodule[bib]
+%\usemodule[bibltx]
 \environment env_dis
 
+\usebtxdataset[bibliotest.bib]
+\usebtxdefinitions[apa]
+\setupbtxrendering[sorttype=authoryear,numbering=no,criterum=text]
+\definebtxrendering[specification=apa,sorttype=authoryear,numbering=no]
+\setupbtx [apa:cite][alternative=authoryear][etallimit=3,separator:names:2=\btxcomma,separator:names:3=\btxcomma, separator:names:4=\btxcomma, authorconversion=shortinverted,interaction=start,separator:firstnames=\btxspace]
 
 
-\setuppublications[alternative=apa,numbering=no,refcommand=authoryear] 
-\setupbibtex[database={bibliotest},sort=author]
 
 
 \startcomponent testbiblio
 
 \startchapter[title={Test bibliografie v BibTex formatu}, marking={Test bibliografie v BibTex formatu}, reference={testbiblio}]
 
+\startbodymatter
 \section[uvod]{Úvod}
 
-V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí. \cite[alternative=authoryear,extras={, 123}][Tsetskhladze2004]
+V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí \cite[righttext={{ \nbsp 123},{ \nbsp 116-156}}][Tsetskhladze2004, Malkin1998].
 
-V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí. \cite[Malkin1998]
+V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit \cite[righttext={ \nbsp 1}][Malkin2004]. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí \cite[righttext={ \nbsp 566-453}][Malkin1998].
 
-V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí. (\cite[Dietler1998])
+V této kapitole se věnuji podrobné charakteristice nápisů a epigrafické produkci v Thrákii obecně v rámci jednotlivých staletí. Zaměřuji především na celkovou charakteristiku epigrafické produkce, s důrazem na popis a šíření projevů mezikulturních kontaktů a vzájemné ovlivňování epigraficky aktivních komunit. Dále sleduji trendy v publikaci nápisů, rozšíření epigrafického zvyku v prostředí urbánních a venkovských komunit. Nadále mě zajímá složení těchto komunit, společenská hierarchie a šíření kulturních prvků typických pro řecky mluvící komunity v rámci osídlení thráckého pobřeží i thráckého vnitrozemí \cite[righttext={ \nbsp 12-18}][Dietler1998].
+\stopbodymatter
 
+\startbackmatter
+\startchapter[title=Bibliografie]
+\placelistofpublications
+\stopchapter
+\stopbackmatter
 
-\completepublications[criterium=text]
-
-
-
-\stopchapter 
 \stopcomponent
