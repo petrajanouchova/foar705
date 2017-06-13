@@ -1,0 +1,101 @@
+open source     > level 1, order 1, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2017.03.02 22:23 MKIV beta  fmt: 2017.3.19  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+close source    > level 2, order 2, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'test', input './test', result 'test'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > level 2, order 3, name '/home/brian/petra/foar705/test_biblio/test.tex'
+system          > jobfiles > unknown tex file 'env_dis'
+publications    > adding bib data to set 'default' from source 'test.bib'
+interface       > macros > processed mkvi file '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.mkvi', delta 62
+interface       > macros > processed mkvi file '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.mkvi', delta 0
+open source     > level 3, order 4, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.mkvi'
+close source    > level 3, order 4, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.mkvi'
+fonts           > preloading latin modern fonts (second stage)
+fonts           > 'fallback modern-designsize rm 12pt' is loaded
+publications    > analyzing previous publication run for 'default'
+structure       > sectioning > section @ level 3 : 0.0.1 -> Bibliografie
+publications    > list > collecting entries using method 'dataset' and sort order 'authoryear'
+backend         > xmp > using file '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+pages           > flushing realpage 2, userpage 2
+close source    > level 2, order 4, name '/home/brian/petra/foar705/test_biblio/test.tex'
+close source    > level 1, order 4, name '/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > structure > start used structure
+
+used structure  > text: test
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=scripts foundname=/usr/local/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+used file       >    5: filename=/home/brian/petra/foar705/test_biblio/test foundname=/home/brian/petra/foar705/test_biblio/test.tex usedmethod=qualified
+used file       >    6: filename=lang-cs.lua filetype=scripts foundname=/usr/local/context/tex/texmf-context/tex/context/patterns/mkiv/lang-cs.lua usedmethod=database
+used file       >    7: filename=test filetype=bib format=bib foundname=test.bib usedmethod=filesystem
+used file       >    8: filename=publ-imp-apa.mkvi filetype=tex foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.mkvi usedmethod=database
+used file       >    9: filename=publ-imp-apa.lua filetype=scripts foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-apa.lua usedmethod=database
+used file       >   10: filename=lm.lfg filetype=tex foundname=/usr/local/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+used file       >   11: filename=lmroman12-regular filetype=otf format=otf foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
+used file       >   12: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   13: filename=lmroman12-bold filetype=otf format=otf foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm/lmroman12-bold.otf usedmethod=database
+used file       >   14: filename=lmromanslant12-regular filetype=otf format=otf foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm/lmromanslant12-regular.otf usedmethod=database
+used file       >   15: filename=lmroman10-regular filetype=otf format=otf foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm/lmroman10-regular.otf usedmethod=database
+used file       >   16: filename=lmroman12-italic filetype=otf format=otf foundname=/usr/local/context/tex/texmf/fonts/opentype/public/lm/lmroman12-italic.otf usedmethod=database
+used file       >   17: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="3"
+used option     > fulljobname="./test"
+used option     > input="./test"
+used option     > kindofrun="2"
+used option     > maxnofruns="9"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./test
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /usr/local/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.005 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 17 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 402 modules (0.156 sec), 91 tables (0.008 sec), 493 chunks (0.164 sec)
+mkiv lua stats  > traced context: maxstack: 1266, freed: 22, unreachable: 1244
+mkiv lua stats  > cleaned up reserved nodes: 49 nodes, 9 lists of 447
+mkiv lua stats  > node memory usage: 2 glue, 18 kern, 2 penalty, 12 attribute, 65 glue_spec, 3 attribute_list, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 7 unique task lists, 10 instances (re)created, 402 calls
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 992 direct, 1808 indirect, 2800 total
+mkiv lua stats  > randomizer: resumed with value 0.6496803377055
+mkiv lua stats  > positions: 9 collected, 9 regular, 0 special
+mkiv lua stats  > loaded patterns: cs::16 en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 0 references, 24 destinations
+mkiv lua stats  > result saved in file: test.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 6 files: latinmodern-math.otf, lmroman10-regular.otf, lmroman12-bold.otf, lmroman12-italic.otf, lmroman12-regular.otf, lmromanslant12-regular.otf
+mkiv lua stats  > font engine: otf 3.027, afm 1.512, tfm 1.000, 8 instances, load time 0.114 seconds 
+mkiv lua stats  > publications load time: 0.005 seconds, 5291 bytes, 13 definitions, 0 shortcuts
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version 1.0.3 (tex live 2017/dev)
+mkiv lua stats  > control sequences: 45469 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 79 MB (ctx: 79 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.423 seconds, 2 processed pages, 2 shipped pages, 4.728 pages/second
+
